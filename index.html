@@ -1,30 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Updates</title>
+<title>ICNSS 2026 Committees</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
+
 body{
-font-family:Arial;
-max-width:700px;
-margin:auto;
-padding:20px;
+    font-family: Arial, sans-serif;
+    background:#0B4F86;
+    margin:0;
+    padding:20px;
 }
-.card{
-padding:20px;
-border-radius:12px;
-background:#f5f5f5;
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
 }
+
+.box{
+    padding:30px;
+    border-radius:20px;
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+    min-height:120px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:0.2s;
+}
+
+.box:hover{
+    transform:scale(1.03);
+}
+
+.main{
+    background:white;
+    color:black;
+}
+
+.green{
+    background:#4CAF50;
+    color:white;
+}
+
+.blue{
+    background:#6EB6FF;
+    color:white;
+}
+
 </style>
 </head>
 
 <body>
 
-<h1>Welcome</h1>
+<div class="container">
 
-<div class="card">
-<h2>Latest Updates</h2>
-<p>Put your updates here.</p>
+    <a class="box main"
+       href="https://nssconference2026.org/"
+       target="_blank">
+       ICNSS 2026 Official Website
+    </a>
+
+    <a class="box green" href="registration.html">
+        On-site Registration Committee
+    </a>
+
+    <a class="box blue" href="safety.html">
+        Safety, Security & Health Committee
+    </a>
+
+    <a class="box green" href="transportation.html">
+        Transportation Committee
+    </a>
+
+    <a class="box blue" href="accommodation.html">
+        Accommodation Committee
+    </a>
+
+    <a class="box green" href="exhibition.html">
+        Exhibition & Poster Committee
+    </a>
+
+    <a class="box blue" href="food.html">
+        Food Committee
+    </a>
+
+    <a class="box green" href="sitevisit.html">
+        Site Visit Committee
+    </a>
+
 </div>
 
 </body>
